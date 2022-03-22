@@ -1,0 +1,161 @@
+{
+   "managers":[
+      {
+         "name":"Mick Meagan",
+         "id":0,
+         "reigns":[
+            {
+               "endDate":"1971-06-01",
+               "startDate":"1969-09-01"
+            }
+         ]
+      },
+      {
+         "name":"Liam Tuohy",
+         "id":1,
+         "reigns":[
+            {
+               "endDate":"1973-06-01",
+               "startDate":"1971-10-01"
+            }
+         ]
+      },
+      {
+         "name":"Sean Thomas",
+         "id":2,
+         "reigns":[
+            {
+               "endDate":"1973-06-30",
+               "startDate":"1973-06-01"
+            }
+         ]
+      },
+      {
+         "name":"Johnny Giles",
+         "id":3,
+         "reigns":[
+            {
+               "endDate":"1980-04-01",
+               "startDate":"1973-10-01"
+            }
+         ]
+      },
+      {
+         "name":"Alan Kelly Snr",
+         "id":4,
+         "reigns":[
+            {
+               "endDate":"1980-05-01",
+               "startDate":"1980-04-01"
+            }
+         ]
+      },
+      {
+         "name":"Eoin Hand",
+         "id":5,
+         "reigns":[
+            {
+               "endDate":"1985-12-01",
+               "startDate":"1980-05-01"
+            }
+         ]
+      },
+      {
+         "name":"Jack Charlton",
+         "id":6,
+         "reigns":[
+            {
+               "endDate":"1995-12-31",
+               "startDate":"1986-02-01"
+            }
+         ]
+      },
+      {
+         "name":"Mick McCarthy",
+         "id":7,
+         "reigns":[
+            {
+               "endDate":"2002-11-10",
+               "startDate":"1996-02-01"
+            },
+            {
+               "endDate":"2020-04-04",
+               "startDate":"2019-03-23"
+            }
+         ]
+      },
+      {
+         "name":"Don Givens",
+         "id":8,
+         "reigns":[
+            {
+               "endDate":"2002-12-01",
+               "startDate":"2002-11-01"
+            },
+            {
+               "endDate":"2008-03-01",
+               "startDate":"2007-11-01"
+            }
+         ]
+      },
+      {
+         "name":"Brian Kerr",
+         "id":9,
+         "reigns":[
+            {
+               "endDate":"2005-11-01",
+               "startDate":"2003-01-26"
+            }
+         ]
+      },
+      {
+         "name":"Steve Staunton",
+         "id":10,
+         "reigns":[
+            {
+               "endDate":"2007-10-23",
+               "startDate":"2006-01-13"
+            }
+         ]
+      },
+      {
+         "name":"Giovanni Trapattoni",
+         "id":11,
+         "reigns":[
+            {
+               "endDate":"2013-09-11",
+               "startDate":"2008-05-01"
+            }
+         ]
+      },
+      {
+         "name":"Noel King",
+         "id":12,
+         "reigns":[
+            {
+               "endDate":"2013-11-01",
+               "startDate":"2013-10-01"
+            }
+         ]
+      },
+      {
+         "name":"Martin O'Neill",
+         "id":13,
+         "reigns":[
+            {
+               "endDate":"2018-11-21",
+               "startDate":"2013-11-05"
+            }
+         ]
+      },
+      {
+         "name":"Stephen Kenny",
+         "id":14,
+         "reigns":[
+            {
+               "startDate":"2020-04-05"
+            }
+         ]
+      }
+   ]
+}
