@@ -19064,7 +19064,7 @@
           },
           {
             "playerRef":316,
-            "time":8,
+            "time":88,
             "isPenalty":true
           }
         ]
@@ -20833,7 +20833,7 @@
     {
       "id":299,
       "date":"1994-06-18",
-      "level":7,
+      "level":6,
       "homeTeam":{
         "teamRef":2,
         "scored":0,
@@ -20901,7 +20901,7 @@
     {
       "id":300,
       "date":"1994-06-24",
-      "level":7,
+      "level":6,
       "homeTeam":{
         "teamRef":42,
         "scored":2,
@@ -20979,7 +20979,7 @@
     {
       "id":301,
       "date":"1994-06-28",
-      "level":7,
+      "level":6,
       "homeTeam":{
         "teamRef":11,
         "scored":0,
@@ -21041,7 +21041,7 @@
     {
       "id":302,
       "date":"1994-07-04",
-      "level":7,
+      "level":6,
       "homeTeam":{
         "teamRef":5,
         "scored":2,
@@ -21921,7 +21921,7 @@
     {
       "id":314,
       "date":"1995-12-13",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":5,
         "scored":2,
@@ -25015,7 +25015,7 @@
     {
       "id":350,
       "date":"1999-11-13",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":0,
         "scored":1,
@@ -25111,7 +25111,7 @@
     {
       "id":351,
       "date":"1999-11-17",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":26,
         "scored":0,
@@ -25453,7 +25453,7 @@
     {
       "id":355,
       "date":"2000-06-04",
-      "level":10,
+      "level":4,
       "homeTeam":{
         "teamRef":42,
         "scored":2,
@@ -25548,7 +25548,7 @@
     {
       "id":356,
       "date":"2000-06-06",
-      "level":10,
+      "level":4,
       "homeTeam":{
         "teamRef":35,
         "scored":1,
@@ -25632,7 +25632,7 @@
     {
       "id":357,
       "date":"2000-06-11",
-      "level":10,
+      "level":4,
       "homeTeam":{
         "teamRef":58,
         "scored":1,
@@ -27260,7 +27260,7 @@
         "goals":[
           {
             "playerRef":386,
-            "time":0
+            "time":68
           }
         ]
       },
@@ -33342,7 +33342,7 @@
         "goals":[
           {
             "playerRef":426,
-            "time":8,
+            "time":88,
             "isPenalty":true
           },
           {
@@ -35388,7 +35388,7 @@
     {
       "id":464,
       "date":"2011-02-08",
-      "level":11,
+      "level":9,
       "homeTeam":{
         "teamRef":0,
         "scored":3,
@@ -35684,7 +35684,7 @@
     {
       "id":467,
       "date":"2011-05-24",
-      "level":11,
+      "level":9,
       "homeTeam":{
         "teamRef":0,
         "scored":5,
@@ -35791,7 +35791,7 @@
     {
       "id":468,
       "date":"2011-05-29",
-      "level":11,
+      "level":9,
       "homeTeam":{
         "teamRef":0,
         "scored":1,
@@ -36555,7 +36555,7 @@
     {
       "id":476,
       "date":"2011-11-11",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":59,
         "scored":0,
@@ -36659,7 +36659,7 @@
     {
       "id":477,
       "date":"2011-11-15",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":0,
         "scored":1,
@@ -41331,7 +41331,7 @@
     {
       "id":522,
       "date":"2015-11-13",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":75,
         "scored":1,
@@ -41427,7 +41427,7 @@
     {
       "id":523,
       "date":"2015-11-16",
-      "level":8,
+      "level":7,
       "homeTeam":{
         "teamRef":0,
         "scored":2,
@@ -41592,7 +41592,7 @@
         {
           "playerRef":419,
           "introducedOn":27,
-          "substitutedOn":72
+          "substitutedOn":79
         },
         {
           "playerRef":435
@@ -42001,7 +42001,7 @@
     {
       "id":528,
       "date":"2016-06-13",
-      "level":6,
+      "level":5,
       "homeTeam":{
         "teamRef":0,
         "scored":1,
@@ -42114,7 +42114,7 @@
     {
       "id":529,
       "date":"2016-06-18",
-      "level":6,
+      "level":5,
       "homeTeam":{
         "teamRef":3,
         "scored":3,
@@ -42213,7 +42213,7 @@
     {
       "id":530,
       "date":"2016-06-22",
-      "level":6,
+      "level":5,
       "homeTeam":{
         "teamRef":2,
         "scored":0,
@@ -42321,7 +42321,7 @@
     {
       "id":531,
       "date":"2016-06-26",
-      "level":6,
+      "level":5,
       "homeTeam":{
         "teamRef":10,
         "scored":2,
@@ -44504,7 +44504,7 @@
     {
       "id":550,
       "date":"2018-09-06",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":23,
         "scored":4,
@@ -44706,7 +44706,7 @@
     {
       "id":552,
       "date":"2018-10-13",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":0,
@@ -44814,7 +44814,7 @@
     {
       "id":553,
       "date":"2018-10-16",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":0,
@@ -45027,7 +45027,7 @@
     {
       "id":555,
       "date":"2018-11-19",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":20,
         "scored":0,
@@ -46199,7 +46199,7 @@
     {
       "id":566,
       "date":"2020-09-03",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":33,
         "scored":1,
@@ -46304,7 +46304,7 @@
     {
       "id":567,
       "date":"2020-09-06",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":0,
@@ -46507,7 +46507,7 @@
     {
       "id":569,
       "date":"2020-10-11",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":0,
@@ -46602,7 +46602,7 @@
     {
       "id":570,
       "date":"2020-10-14",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":16,
         "scored":1,
@@ -46794,7 +46794,7 @@
     {
       "id":572,
       "date":"2020-11-15",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":23,
         "scored":1,
@@ -46912,7 +46912,7 @@
     {
       "id":573,
       "date":"2020-11-18",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":0,
@@ -48355,6 +48355,215 @@
         },
         {
           "playerRef":500
+        }
+      ]
+    },
+    {
+      "id":586,
+      "date":"2022-03-26",
+      "level":0,
+      "homeTeam":{
+        "teamRef":0,
+        "scored":2,
+        "goals":[
+          {
+            "playerRef":500,
+            "time":84
+          },
+          {
+            "playerRef":544,
+            "time":34
+          }
+        ]
+      },
+      "awayTeam":{
+        "teamRef":3,
+        "scored":2
+      },
+      "startingXI":[
+        {
+          "playerRef":453
+        },
+        {
+          "playerRef":517
+        },
+        {
+          "playerRef":483
+        },
+        {
+          "playerRef":488
+        },
+        {
+          "playerRef":525
+        },
+        {
+          "playerRef":497
+        },
+        {
+          "playerRef":544
+        },
+        {
+          "playerRef":462,
+          "substitutedOn":75
+        },
+        {
+          "playerRef":514,
+          "substitutedOn":90
+        },
+        {
+          "playerRef":536,
+          "substitutedOn":75
+        },
+        {
+          "playerRef":456,
+          "substitutedOn":79
+        }
+      ],
+      "substitutes":[
+        {
+          "playerRef":503
+        },
+        {
+          "playerRef":500,
+          "introducedOn":75
+        },
+        {
+          "playerRef":528
+        },
+        {
+          "playerRef":520,
+          "introducedOn":79
+        },
+        {
+          "playerRef":535
+        },
+        {
+          "playerRef":534
+        },
+        {
+          "playerRef":548,
+          "introducedOn":75
+        },
+        {
+          "playerRef":546
+        },
+        {
+          "playerRef":529
+        },
+        {
+          "playerRef":532,
+          "introducedOn":90
+        },
+        {
+          "playerRef":550
+        },
+        {
+          "playerRef":498
+        }
+      ]
+    },
+    {
+      "id":587,
+      "date":"2022-03-29",
+      "level":0,
+      "homeTeam":{
+        "teamRef":0,
+        "scored":1,
+        "goals":[
+          {
+            "playerRef":532,
+            "time":90
+          }
+        ]
+      },
+      "awayTeam":{
+        "teamRef":49,
+        "scored":0
+      },
+      "startingXI":[
+        {
+          "playerRef":517
+        },
+        {
+          "playerRef":488
+        },
+        {
+          "playerRef":500,
+          "substitutedOn":81
+        },
+        {
+          "playerRef":520
+        },
+        {
+          "playerRef":535,
+          "substitutedOn":62
+        },
+        {
+          "playerRef":497
+        },
+        {
+          "playerRef":548,
+          "substitutedOn":62
+        },
+        {
+          "playerRef":546
+        },
+        {
+          "playerRef":544,
+          "substitutedOn":81
+        },
+        {
+          "playerRef":498
+        },
+        {
+          "playerRef":514,
+          "substitutedOn":76
+        }
+      ],
+      "substitutes":[
+        {
+          "playerRef":453
+        },
+        {
+          "playerRef":503,
+          "introducedOn":76
+        },
+        {
+          "playerRef":528
+        },
+        {
+          "playerRef":534
+        },
+        {
+          "playerRef":529
+        },
+        {
+          "playerRef":550
+        },
+        {
+          "playerRef":536,
+          "introducedOn":81
+        },
+        {
+          "playerRef":456,
+          "introducedOn":62
+        },
+        {
+          "playerRef":483
+        },
+        {
+          "playerRef":549
+        },
+        {
+          "playerRef":525
+        },
+        {
+          "playerRef":532,
+          "introducedOn":62
+        },
+        {
+          "playerRef":462,
+          "introducedOn":81
         }
       ]
     }
