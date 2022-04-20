@@ -1,0 +1,14 @@
+{
+  "name": "jsonpath",
+  "version": "1.0.0",
+  "description": "Lineups and events from Republic of Ireland international football games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.0"
+  }
+}
