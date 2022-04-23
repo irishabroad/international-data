@@ -7,9 +7,9 @@ dayjs.extend(isSameOrBefore)
 
 const managers = JSON.parse(fs.readFileSync('./managers.json', 'utf-8')).managers;
 
-const getManagerById = (managerId) => managers.filter(m => m.id === managerId)[0];
+const getManagerById = (managerId) => managers.find(m => m.id === managerId);
 
-const getManagerByDate = (date) => managers.filter(m => {
+const getManagerByDate = (date) => managers.find(m => {
 	date = dayjs.isDayjs(date) ? date : dayjs(date);
 	return m.reigns.some(r => {
 		const startDate = dayjs(r.startDate + "T12:00:00");
@@ -18,7 +18,7 @@ const getManagerByDate = (date) => managers.filter(m => {
 		const endDate = r.endDate ? dayjs(r.endDate + "T12:00:00") : dayjs();
 		return startDate.isSameOrBefore(date) && endDate.isSameOrAfter(date);
 	})
-})[0];
+});
 
 exports.getManagerById = getManagerById;
 exports.getManagerByDate = getManagerByDate;
