@@ -14,7 +14,7 @@ const getPlayerStarts = (playerId) => games.filter(game => game.startingXI.some(
 
 const getPlayerIntroductions = (playerId) => games.filter(game => game.substitutes && game.substitutes.some(s => s.playerRef === playerId && s.introducedOn));
 
-const getGameById = (gameId) => games.filter(g => g.id === gameId)[0];
+const getGameById = (gameId) => games.find(g => g.id === gameId);
 
 exports.getGameById = getGameById;
 exports.getPlayerIntroductions = getPlayerIntroductions;
