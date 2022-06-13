@@ -14,5 +14,13 @@ const toDayJs = (date) => dayjs(date + "T12:00:00");
  */
 const getIrelandFromGame = (game) => game.homeTeam.teamRef === 0 ? game.homeTeam : game.awayTeam;
 
+/**
+ * Return a JSON object representing the opposing team in a game
+ * @param  game a game object
+ * @return a JSON object representing the opposition 
+ */
+const getOppositionFromGame = (game) => game.homeTeam.teamRef === 0 ? game.awayTeam : game.homeTeam;
+
 exports.toDayJs = toDayJs;
 exports.getIrelandFromGame = getIrelandFromGame;
+exports.getOppositionFromGame = getOppositionFromGame;
