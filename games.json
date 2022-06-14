@@ -48135,10 +48135,12 @@
       "level":1,
       "homeTeam":{
         "teamRef":0,
+        "ranking":51,
         "scored":0
       },
       "awayTeam":{
         "teamRef":13,
+        "ranking":8,
         "scored":0
       },
       "startingXI":[
@@ -48240,11 +48242,13 @@
       "level":1,
       "homeTeam":{
         "teamRef":9,
+        "ranking":94,
         "scored":0
       },
       "awayTeam":{
         "teamRef":0,
         "scored":3,
+        "ranking":51,
         "goals":[
           {
             "playerRef":483,
@@ -48365,6 +48369,7 @@
       "homeTeam":{
         "teamRef":0,
         "scored":2,
+        "ranking":49,
         "goals":[
           {
             "playerRef":500,
@@ -48378,6 +48383,7 @@
       },
       "awayTeam":{
         "teamRef":3,
+        "ranking":1,
         "scored":2
       },
       "startingXI":[
@@ -48469,6 +48475,7 @@
       "homeTeam":{
         "teamRef":0,
         "scored":1,
+        "ranking":49,
         "goals":[
           {
             "playerRef":532,
@@ -48478,6 +48485,7 @@
       },
       "awayTeam":{
         "teamRef":49,
+        "ranking":137,
         "scored":0
       },
       "startingXI":[
@@ -48573,10 +48581,12 @@
       "level":10,
       "homeTeam":{
         "teamRef":74,
+        "ranking":92,
         "scored":1
       },
       "awayTeam":{
         "teamRef":0,
+        "ranking":47,
         "scored":0
       },
       "startingXI":[
@@ -48677,10 +48687,12 @@
       "level":10,
       "homeTeam":{
         "teamRef":0,
+        "ranking":47,
         "scored":0
       },
       "awayTeam":{
         "teamRef":83,
+        "ranking":27,
         "scored":1
       },
       "startingXI":[
@@ -48775,10 +48787,11 @@
     {
       "id":590,
       "date":"2022-06-11",
-      "level":12,
+      "level":10,
       "homeTeam":{
         "teamRef":0,
         "scored":3,
+        "ranking":47,
         "goals":[
           {
             "playerRef":500,
@@ -48796,6 +48809,7 @@
       },
       "awayTeam":{
         "teamRef":24,
+        "ranking":39,
         "scored":0
       },
       "startingXI":[
