@@ -48570,7 +48570,7 @@
   {
     "id":588,
     "date":"2022-06-04",
-    "level":12,
+    "level":10,
     "homeTeam":{
       "teamRef":74,
       "ranking":92,
@@ -48676,7 +48676,7 @@
   {
     "id":589,
     "date":"2022-06-08",
-    "level":12,
+    "level":10,
     "homeTeam":{
       "teamRef":0,
       "ranking":47,
@@ -48779,7 +48779,7 @@
   {
     "id":590,
     "date":"2022-06-11",
-    "level":12,
+    "level":10,
     "homeTeam":{
       "teamRef":0,
       "ranking":47,
@@ -48897,7 +48897,7 @@
   {
     "id":591,
     "date":"2022-06-14",
-    "level":12,
+    "level":10,
     "homeTeam":{
       "teamRef":83,
       "ranking":27,
