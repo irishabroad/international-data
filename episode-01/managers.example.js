@@ -1,4 +1,4 @@
-const managers = require('./managers');
+const managers = require('../lib/managers');
 
 const manager = managers.getManagerByDate(process.argv[2]);
 

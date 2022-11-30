@@ -1,4 +1,4 @@
-const players = require('./players');
+const players = require('../lib/players');
 
 const player = players.getPlayerById(parseInt(process.argv[2]));
 

@@ -1,4 +1,4 @@
-const countries = require('./countries');
+const countries = require('../lib/countries');
 
 const country = countries.getCountryById(parseInt(process.argv[2]));
 

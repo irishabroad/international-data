@@ -1,9 +1,9 @@
-const games = require('./games');
-const countries = require('./countries');
-const managers = require('./managers');
-const levels = require('./levels');
-const players = require('./players')
-const utils = require('./utils')
+const games = require('../lib/games');
+const countries = require('../lib/countries');
+const managers = require('../lib/managers');
+const levels = require('../lib/levels');
+const players = require('../lib/players')
+const utils = require('../lib/utils')
 
 const game = games.getGameById(parseInt(process.argv[2]));
 const manager = managers.getManagerByDate(game.date);

@@ -1,4 +1,4 @@
-const levels = require('./levels');
+const levels = require('../lib/levels');
 
 const level = levels.getLevelById(parseInt(process.argv[2]));
 
