@@ -10,7 +10,7 @@ const getPlayerDebutManager = (player) => {
 	if (caps.length > 0) {
 		const debut = caps[0];
 		const manager = managers.getManagerByDate(debut.date);
-		console.log(`${player.firstName} ${player.surName} was given his debut by ${manager.name}`);
+		console.log(`${player.firstName} ${player.surName} was given his debut by ${manager?.name}`);
 	}
 };
 
