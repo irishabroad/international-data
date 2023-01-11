@@ -5,13 +5,19 @@ const managers = require('../lib/managers');
 
 const players = JSON.parse(fs.readFileSync('../data/players.json', 'utf-8')).players;
 
-const getPlayerDebutManager = (player) => {
+const playerToDebutManager = (player) => {
+	const retVal = {
+		player: `${player.firstName} ${player.surName}`
+	};
 	const caps = games.getPlayerCaps(player.id);
 	if (caps.length > 0) {
 		const debut = caps[0];
 		const manager = managers.getManagerByDate(debut.date);
-		console.log(`${player.firstName} ${player.surName} was given his debut by ${manager?.name}`);
+		retVal.manager = manager?.name;
 	}
+	return retVal;
 };
 
-players.forEach(getPlayerDebutManager);
+const result = players.map(playerToDebutManager);
+
+console.table(result);
