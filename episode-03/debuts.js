@@ -18,6 +18,7 @@ const playerToDebutManager = (player) => {
 	return retVal;
 };
 
-const result = players.map(playerToDebutManager);
+const result = players.map(playerToDebutManager)
+                      .filter(r => r.manager);
 
 console.table(result);
