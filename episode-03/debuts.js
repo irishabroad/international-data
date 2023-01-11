@@ -18,7 +18,21 @@ const playerToDebutManager = (player) => {
 	return retVal;
 };
 
+const managerToDebutPlayers = (result, item) => {
+	let manager = result.find(r => r.manager === item.manager);
+	if (manager === undefined) {
+		manager = {
+			manager: item.manager,
+			players: []
+		};
+		result.push(manager);
+	}
+	manager.players.push(item.player);
+	return result;
+};
+
 const result = players.map(playerToDebutManager)
-                      .filter(r => r.manager);
+                      .filter(r => r.manager)
+                      .reduce(managerToDebutPlayers, []);
 
 console.table(result);
