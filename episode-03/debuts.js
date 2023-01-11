@@ -31,8 +31,16 @@ const managerToDebutPlayers = (result, item) => {
 	return result;
 };
 
+const processResult = (result) => {
+	return {
+		manager: result.manager,
+		debuts: result.players.length
+	};
+};
+
 const result = players.map(playerToDebutManager)
                       .filter(r => r.manager)
-                      .reduce(managerToDebutPlayers, []);
+                      .reduce(managerToDebutPlayers, [])
+                      .map(processResult);
 
 console.table(result);
