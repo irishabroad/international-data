@@ -21,13 +21,21 @@ const calculateStartingXIAverageAge = (game) => {
   const homeTeamName = countries.getCountryById(game.homeTeam.teamRef).name;
   const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
 
-  console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
   const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
   const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
   const validAges = startingXIAges.filter((age) => age != 0).length; 
   const averageAgeInDays = (totalAge / validAges);
   const averageAgeInYears = (averageAgeInDays / 365.25);
-  console.log(`The average age of the starting XI was ${averageAgeInYears}`);
+  return {
+   date: dateString,
+   level: levelName,
+   homeTeam: homeTeamName,
+   score: `${game.homeTeam.scored}-${game.awayTeam.scored}`,
+   awayTeam: awayTeamName,
+   averageAge: averageAgeInYears
+  };             
 };
 
-games.forEach(calculateStartingXIAverageAge);
+const result = games.map(calculateStartingXIAverageAge);
+
+console.table(result);
