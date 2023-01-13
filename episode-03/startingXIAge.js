@@ -37,6 +37,7 @@ const calculateStartingXIAverageAge = (game) => {
 };
 
 const result = games.filter(g => levels.isCompetitive(g.level))
-                    .map(calculateStartingXIAverageAge);
+                    .map(calculateStartingXIAverageAge)
+                    .filter(r => r.averageAge < 24.9);
 
 console.table(result);
