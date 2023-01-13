@@ -36,6 +36,7 @@ const calculateStartingXIAverageAge = (game) => {
   };             
 };
 
-const result = games.map(calculateStartingXIAverageAge);
+const result = games.filter(g => levels.isCompetitive(g.level))
+                    .map(calculateStartingXIAverageAge);
 
 console.table(result);
