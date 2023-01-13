@@ -9,7 +9,7 @@ const gameId = parseInt(process.argv[2]);
 const calculatePlayerAge = (playerId, date) => {
   const player = players.getPlayerById(playerId);
   const dateOfBirth = utils.toDayJs(player.dateOfBirth);
-  const age = date.diff(dateOfBirth, 'year');
+  const age = date.diff(dateOfBirth, 'day');
   return age;
 };
 
@@ -23,5 +23,6 @@ const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
 console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
 const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
 const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
-const averageAge = (totalAge / 11);
-console.log(`The average age of the starting XI was ${averageAge}`);
+const averageAgeInDays = (totalAge / 11);
+const averageAgeInYears = (averageAgeInDays / 365.25);
+console.log(`The average age of the starting XI was ${averageAgeInYears}`);
