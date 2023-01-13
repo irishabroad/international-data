@@ -1,54 +1,13 @@
-const fs = require('fs');
+const dayjs = require('dayjs');
 
-const countries = require('../lib/countries');
-const levels = require('../lib/levels');
 const players = require('../lib/players');
 const utils = require('../lib/utils');
 
-const games = JSON.parse(fs.readFileSync('../data/games.json', 'utf-8')).games;
+const playerId = parseInt(process.argv[2]);
+const dateId = process.argv[3];
 
-/**
- * Calculate the age of a player on a given date
- * @param  {number} playerId the id of a player
- * @param  {date} a datejs object
- * @return {number} the age of a player on the given date, in days
- */
-const calculatePlayerAge = (playerId, date) => {
-  const player = players.getPlayerById(playerId);
-  const dateOfBirth = utils.toDayJs(player.dateOfBirth ?? date);
-  const age = date.diff(dateOfBirth, 'day');
-  return age;
-};
-
-/**
- * Calculate the average age of the starting XI of a game
- * @param  {Object} game a game object
- * @return {Object} the object to display in the console
- */
-const calculateStartingXIAverageAge = (game) => {
-  const gameDate = utils.toDayJs(game.date);  
-  const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate));
-  const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
-  const averageAgeInDays = (totalAge / 11);
-  const averageAgeInYears = (averageAgeInDays / 365.25);
-
-  const homeTeamName = countries.getCountryById(game.homeTeam.teamRef).name;
-  const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
-  const levelName = levels.getLevelById(game.level).name;
-  const dateString = gameDate.format('dddd, D MMM YYYY');
-
-  return {
-    date: dateString,
-    level: levelName,
-    homeTeam: homeTeamName,
-    score: `${game.homeTeam.scored}-${game.awayTeam.scored}`,
-    awayTeam: awayTeamName,
-    averageAge: averageAgeInYears
-  };
-};
-
-const result = games.filter(g => levels.isCompetitive(g.level))
-                    .map(calculateStartingXIAverageAge)
-                    .filter(r => r.averageAge < 24.9);
-
-console.table(results);
+const player = players.getPlayerById(playerId);
+const dateOfBirth = utils.toDayJs(player.dateOfBirth);
+const date = utils.toDayJs(dateId);
+const age = date.diff(dateOfBirth, 'year');
+console.log(`${player.firstName} ${player.surName} was ${age} years old on ${date.format('dddd, D MMMM YYYY')}`);
