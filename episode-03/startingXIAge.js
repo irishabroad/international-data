@@ -10,7 +10,7 @@ const calculatePlayerAge = (playerId, date) => {
   const player = players.getPlayerById(playerId);
   const dateOfBirth = utils.toDayJs(player.dateOfBirth);
   const age = date.diff(dateOfBirth, 'year');
-  console.log(`${player.firstName} ${player.surName} was ${age} years old on ${date.format('dddd, D MMMM YYYY')}`);
+  return age;
 };
 
 const game = games.getGameById(gameId);
@@ -21,4 +21,7 @@ const homeTeamName = countries.getCountryById(game.homeTeam.teamRef).name;
 const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
 
 console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
-game.startingXI.forEach(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
+const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
+const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
+const averageAge = (totalAge / 11);
+console.log(`The average age of the starting XI was ${averageAge}`);
