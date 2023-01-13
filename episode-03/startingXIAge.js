@@ -9,7 +9,7 @@ const games = JSON.parse(fs.readFileSync('../data/games.json', 'utf-8')).games;
 
 const calculatePlayerAge = (playerId, date) => {
   const player = players.getPlayerById(playerId);
-  const dateOfBirth = utils.toDayJs(player.dateOfBirth);
+  const dateOfBirth = utils.toDayJs(player.dateOfBirth ?? date);
   const age = date.diff(dateOfBirth, 'day');
   return age;
 };
@@ -24,7 +24,8 @@ const calculateStartingXIAverageAge = (game) => {
   console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
   const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
   const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
-  const averageAgeInDays = (totalAge / 11);
+  const validAges = startingXIAges.filter((age) => age != 0).length; 
+  const averageAgeInDays = (totalAge / validAges);
   const averageAgeInYears = (averageAgeInDays / 365.25);
   console.log(`The average age of the starting XI was ${averageAgeInYears}`);
 };
