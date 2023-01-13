@@ -7,6 +7,12 @@ const utils = require('../lib/utils');
 
 const games = JSON.parse(fs.readFileSync('../data/games.json', 'utf-8')).games;
 
+/**
+ * Calculate the age of a player on a given date
+ * @param  {number} playerId the id of a player
+ * @param  {date} a datejs object
+ * @return {number} the age of a player on the given date, in days
+ */
 const calculatePlayerAge = (playerId, date) => {
   const player = players.getPlayerById(playerId);
   const dateOfBirth = utils.toDayJs(player.dateOfBirth ?? date);
@@ -14,6 +20,11 @@ const calculatePlayerAge = (playerId, date) => {
   return age;
 };
 
+/**
+ * Calculate the average age of the starting XI of a game
+ * @param  {Object} game a game object
+ * @return {Object} the object to display in the console
+ */
 const calculateStartingXIAverageAge = (game) => {
   const gameDate = utils.toDayJs(game.date);
   const dateString = gameDate.format('dddd, D MMMM YYYY');
