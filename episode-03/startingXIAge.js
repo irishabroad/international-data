@@ -1,10 +1,11 @@
+const fs = require('fs');
+
 const countries = require('../lib/countries');
-const games = require('../lib/games');
 const levels = require('../lib/levels');
 const players = require('../lib/players');
 const utils = require('../lib/utils');
 
-const gameId = parseInt(process.argv[2]);
+const games = JSON.parse(fs.readFileSync('../data/games.json', 'utf-8')).games;
 
 const calculatePlayerAge = (playerId, date) => {
   const player = players.getPlayerById(playerId);
@@ -13,16 +14,19 @@ const calculatePlayerAge = (playerId, date) => {
   return age;
 };
 
-const game = games.getGameById(gameId);
-const gameDate = utils.toDayJs(game.date);
-const dateString = gameDate.format('dddd, D MMMM YYYY');
-const levelName = levels.getLevelById(game.level).name;
-const homeTeamName = countries.getCountryById(game.homeTeam.teamRef).name;
-const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
+const calculateStartingXIAverageAge = (game) => {
+  const gameDate = utils.toDayJs(game.date);
+  const dateString = gameDate.format('dddd, D MMMM YYYY');
+  const levelName = levels.getLevelById(game.level).name;
+  const homeTeamName = countries.getCountryById(game.homeTeam.teamRef).name;
+  const awayTeamName = countries.getCountryById(game.awayTeam.teamRef).name;
 
-console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
-const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
-const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
-const averageAgeInDays = (totalAge / 11);
-const averageAgeInYears = (averageAgeInDays / 365.25);
-console.log(`The average age of the starting XI was ${averageAgeInYears}`);
+  console.log(`${dateString} ${levelName} ${homeTeamName} ${game.homeTeam.scored}-${game.awayTeam.scored} ${awayTeamName}`);
+  const startingXIAges = game.startingXI.map(sP => calculatePlayerAge(sP.playerRef, gameDate)); 
+  const totalAge = startingXIAges.reduce((result, item) => result + item, 0);
+  const averageAgeInDays = (totalAge / 11);
+  const averageAgeInYears = (averageAgeInDays / 365.25);
+  console.log(`The average age of the starting XI was ${averageAgeInYears}`);
+};
+
+games.forEach(calculateStartingXIAverageAge);
