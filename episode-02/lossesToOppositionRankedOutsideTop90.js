@@ -28,7 +28,7 @@ const isLoss = (game) => {
 };
 
 /**
- * Log the details of the game to the console
+ * Create the result object to be displayed in the console
  * @param  {object} game a game object
  */
 const processGame = (game) => {
@@ -47,9 +47,10 @@ const processGame = (game) => {
   };
 };
 
-const results = games.filter(ranked)
-                	 	 .filter(isLoss)
-                	 	 .filter(game => utils.getOppositionFromGame(game).ranking >= 90)
+const results = games.filter(ranked)  // Filter games where both teams are ranked
+                	 	 .filter(isLoss) // Filter games where the Republic of Ireland lost
+                	 	 .filter(game => utils.getOppositionFromGame(game).ranking >= 90)  // Filter games where the opposition are ranked 90th, or higher, in the world
                 	 	 .map(processGame);
 
+// Log the results to the console in a table
 console.table(results);
