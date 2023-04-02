@@ -79,10 +79,11 @@ const processResult = (result) => {
   };
 };
 
-const results = players.map(getPlayersSubstituteGoals)
+const results = players.map(getPlayersSubstituteGoals)  // Get the games where the player was introduced and scored
                        .flat()
-                       .filter(r => r.timeToGoal <= 9)
-                       .sort((result1, result2) => result1.date.diff(result2.date, "day"))
+                       .filter(r => r.timeToGoal <= 9)  // Filter goals that were scored nine minutes, or less, after the player scored
+                       .sort((result1, result2) => result1.date.diff(result2.date, "day"))  // Sort the goals by the date they were scored on
                        .map(processResult);
 
+// Log the results to the console in a table
 console.table(results);
