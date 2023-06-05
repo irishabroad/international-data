@@ -1,1 +1,5 @@
-SELECT * FROM players WHERE id = players:369
+SELECT *
+FROM games
+WHERE
+  level.isCompetitive AND
+  startingXI.player CONTAINS players:369
