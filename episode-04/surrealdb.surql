@@ -1,10 +1,10 @@
 SELECT 
   date,
-  level.name,
-  homeTeam.country.name,
-  homeTeam.scored,
-  awayTeam.country.name,
-  awayTeam.scored
+  level.name AS level,
+  homeTeam.country.name AS home,
+  homeTeam.scored AS homeScored,
+  awayTeam.country.name AS away,
+  awayTeam.scored AS awayScored
 FROM games
 WHERE
   level.isCompetitive AND
