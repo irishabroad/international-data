@@ -19,6 +19,20 @@ const pipeline = [
       ],
       as: 'firstCompetitiveStart'
     }
+  },
+  { $match: { firstCompetitiveStart: { $gt: {$size: 1} }  } },
+  { $unwind: '$firstCompetitiveStart' },
+  {
+    $project: {
+      _id: 0,
+      name: { $concat: ['$firstName', ' ', '$surName'] },
+      date: '$firstCompetitiveStart.date',
+      age: { $divide: [{ $subtract: [ '$firstCompetitiveStart.date', '$dateOfBirth'] }, 86400000]},
+      levelName: '$firstCompetitiveStart.level.name',
+      homeTeam: '$firstCompetitiveStart.homeTeam.country.name',
+      score: {$concat: [{$toString: '$firstCompetitiveStart.homeTeam.scored'}, '-', {$toString: '$firstCompetitiveStart.awayTeam.scored'}]},
+      awayTeam: '$firstCompetitiveStart.awayTeam.country.name'
+    }
   }
 ];
 
