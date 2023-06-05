@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "dayjs": "^1.11.0",
-    "mongodb": "^5.2.0"
+    "mongodb": "^5.2.0",
+    "surrealdb.js": "^0.7.3"
   }
 }
