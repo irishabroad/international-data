@@ -1,6 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 
 const pipeline = [
+  { $match: { 'dateOfBirth': {$exists: true} } }
 ];
 
 const main = async () => {
