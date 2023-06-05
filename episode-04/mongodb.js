@@ -33,7 +33,9 @@ const pipeline = [
       score: {$concat: [{$toString: '$firstCompetitiveStart.homeTeam.scored'}, '-', {$toString: '$firstCompetitiveStart.awayTeam.scored'}]},
       awayTeam: '$firstCompetitiveStart.awayTeam.country.name'
     }
-  }
+  },
+  {$sort: {'age': 1}},
+  {$limit: 20}
 ];
 
 const main = async () => {
