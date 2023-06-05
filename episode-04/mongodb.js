@@ -1,7 +1,25 @@
 const MongoClient = require('mongodb').MongoClient;
 
 const pipeline = [
-  { $match: { 'dateOfBirth': {$exists: true} } }
+  { $match: { 'dateOfBirth': {$exists: true} } },
+  {
+    $lookup: {
+      from: 'games',
+      let: { playerId: '$id'},
+      pipeline: [
+        { $lookup: { from: 'levels', localField: 'level', foreignField: 'id', as: 'level' } },
+        { $unwind: '$level' },
+        { $lookup: { from: 'countries', localField: 'homeTeam.teamRef', foreignField: 'id', as: 'homeTeam.country' } },
+        { $unwind: '$homeTeam.country' },
+        { $lookup: { from: 'countries', localField: 'awayTeam.teamRef', foreignField: 'id', as: 'awayTeam.country' } },
+        { $unwind: '$awayTeam.country' },
+        { $match: { $and: [{ $expr: { $in: ['$$playerId', '$startingXI.playerRef'] } }, { 'level.isCompetitive': true }] }},
+        { $sort: { date: 1 } },
+        { $limit: 1 }
+      ],
+      as: 'firstCompetitiveStart'
+    }
+  }
 ];
 
 const main = async () => {
