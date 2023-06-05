@@ -16,3 +16,4 @@ SELECT
     LIMIT 1
   ) AS firstCompetitiveStart
 FROM players
+SPLIT firstCompetitiveStart
