@@ -16,4 +16,5 @@ SELECT
     LIMIT 1
   ) AS firstCompetitiveStart
 FROM players
+WHERE dateOfBirth != undefined
 SPLIT firstCompetitiveStart
