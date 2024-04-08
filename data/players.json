@@ -3393,6 +3393,48 @@
          "dateOfBirth":"1999-05-19",
          "position":"MIDFIELDER",
          "id":555
+      },
+      {
+         "firstName":"Jonathan",
+         "surName":"Afolabi",
+         "dateOfBirth":"2000-01-14",
+         "position":"STRIKER",
+         "id":556
+      },
+      {
+         "firstName":"Sinclair",
+         "surName":"Armstrong",
+         "dateOfBirth":"2003-06-22",
+         "position":"STRIKER",
+         "id":557
+      },
+      {
+         "firstName":"Andrew",
+         "surName":"Moran",
+         "dateOfBirth":"2003-10-15",
+         "position":"MIDFIELDER",
+         "id":558
+      },
+      {
+         "firstName":"Finn",
+         "surName":"Azaz",
+         "dateOfBirth":"2000-09-07",
+         "position":"MIDFIELDER",
+         "id":559
+      },
+      {
+         "firstName":"Jake",
+         "surName":"O'Brien",
+         "dateOfBirth":"2001-05-15",
+         "position":"DEFENDER",
+         "id":560
+      },
+      {
+         "firstName":"Joe",
+         "surName":"Hodge",
+         "dateOfBirth":"2002-09-14",
+         "position":"MIDFIELDER",
+         "id":561
       }
    ]
 }
