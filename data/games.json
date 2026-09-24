@@ -50755,6 +50755,2711 @@
                "playerRef":453
             }
          ]
+      },
+      {
+         "id": 609,
+         "date": "2024-06-04",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 533,
+                  "time": 35
+               },
+               {
+                  "playerRef": 532,
+                  "time": 90
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 6,
+            "scored": 1,
+            "ranking": 26
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453
+            },
+            {
+               "playerRef": 559,
+               "substitutedOn": 61
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 483,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 488,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 525,
+               "substitutedOn": 78
+            },
+            {
+               "playerRef": 545
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553
+            },
+            {
+               "playerRef": 533,
+               "substitutedOn": 70
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 61
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 562
+            },
+            {
+               "playerRef": 563
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 560,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 490,
+               "introducedOn": 61
+            },
+            {
+               "playerRef": 550
+            },
+            {
+               "playerRef": 536,
+               "introducedOn": 78
+            },
+            {
+               "playerRef": 519,
+               "introducedOn": 70
+            },
+            {
+               "playerRef": 532,
+               "introducedOn": 61
+            },
+            {
+               "playerRef": 564
+            },
+            {
+               "playerRef": 509
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 453
+            },
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 536
+            }
+         ]
+      },
+      {
+         "id": 610,
+         "date": "2024-06-11",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 13,
+            "scored": 3,
+            "ranking": 6
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 60
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 453,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553,
+               "substitutedOn": 82
+            },
+            {
+               "playerRef": 533,
+               "substitutedOn": 52
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 52
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 52
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 562
+            },
+            {
+               "playerRef": 488,
+               "introducedOn": 69
+            },
+            {
+               "playerRef": 563,
+               "introducedOn": 52
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 52
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 490,
+               "introducedOn": 52
+            },
+            {
+               "playerRef": 550,
+               "introducedOn": 82
+            },
+            {
+               "playerRef": 536,
+               "introducedOn": 69
+            },
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 483
+            },
+            {
+               "playerRef": 519
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 509
+            }
+         ]
+      },
+      {
+         "id": 611,
+         "date": "2024-09-07",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 58
+         },
+         "awayTeam":
+         {
+            "teamRef": 14,
+            "scored": 2,
+            "ranking": 4
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 56
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488,
+               "substitutedOn": 57
+            },
+            {
+               "playerRef": 545
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 553,
+               "substitutedOn": 74
+            },
+            {
+               "playerRef": 533,
+               "substitutedOn": 74
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 81
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 500,
+               "introducedOn": 74
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 560,
+               "introducedOn": 56
+            },
+            {
+               "playerRef": 490
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 74
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 514
+            },
+            {
+               "playerRef": 536,
+               "introducedOn": 57
+            },
+            {
+               "playerRef": 554,
+               "introducedOn": 81
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 545
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 463
+            },
+            {
+               "playerRef": 560
+            }
+         ]
+      },
+      {
+         "id": 612,
+         "date": "2024-09-10",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 58
+         },
+         "awayTeam":
+         {
+            "teamRef": 57,
+            "scored": 2,
+            "ranking": 54
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 541,
+               "substitutedOn": 73
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 83
+            },
+            {
+               "playerRef": 500
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553
+            },
+            {
+               "playerRef": 534,
+               "substitutedOn": 63
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 83
+            },
+            {
+               "playerRef": 463
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 73
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 488,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 83
+            },
+            {
+               "playerRef": 490
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 552
+            },
+            {
+               "playerRef": 514,
+               "introducedOn": 83
+            },
+            {
+               "playerRef": 554,
+               "introducedOn": 63
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 536
+            }
+         ]
+      },
+      {
+         "id": 613,
+         "date": "2024-10-10",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 16,
+            "scored": 1,
+            "ranking": 64
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 62,
+            "goals":
+            [
+               {
+                  "playerRef": 547,
+                  "time": 56
+               },
+               {
+                  "playerRef": 463,
+                  "time": 87
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 559,
+               "substitutedOn": 70
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 79
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 79
+            },
+            {
+               "playerRef": 463
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 70
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 542,
+               "introducedOn": 70
+            },
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 566
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 79
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 79
+            },
+            {
+               "playerRef": 532,
+               "introducedOn": 70
+            },
+            {
+               "playerRef": 538
+            }
+         ]
+      },
+      {
+         "id": 614,
+         "date": "2024-10-13",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 57,
+            "scored": 2,
+            "ranking": 48
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 62
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 72
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 535,
+               "substitutedOn": 81
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 56
+            },
+            {
+               "playerRef": 463
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 72
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 56
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 72
+            },
+            {
+               "playerRef": 533
+            },
+            {
+               "playerRef": 534,
+               "introducedOn": 72
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 81
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 56
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 56
+            }
+         ]
+      },
+      {
+         "id": 615,
+         "date": "2024-11-14",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "ranking": 63,
+            "goals":
+            [
+               {
+                  "playerRef": 554,
+                  "time": 44
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 16,
+            "scored": 0,
+            "ranking": 66
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 84
+            },
+            {
+               "playerRef": 555,
+               "substitutedOn": 84
+            },
+            {
+               "playerRef": 490
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 552,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 75
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 559,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 563,
+               "introducedOn": 84
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520,
+               "introducedOn": 84
+            },
+            {
+               "playerRef": 566
+            },
+            {
+               "playerRef": 535,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 534,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 558
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565
+            },
+            {
+               "playerRef": 532
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 490
+            },
+            {
+               "playerRef": 536
+            }
+         ]
+      },
+      {
+         "id": 616,
+         "date": "2024-11-17",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 14,
+            "scored": 5,
+            "ranking": 4
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 63
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 85
+            },
+            {
+               "playerRef": 566
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 490,
+               "substitutedOn": 66
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 552,
+               "substitutedOn": 66
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 66
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 559,
+               "introducedOn": 66
+            },
+            {
+               "playerRef": 488
+            },
+            {
+               "playerRef": 563
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520,
+               "introducedOn": 66
+            },
+            {
+               "playerRef": 558,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 85
+            },
+            {
+               "playerRef": 540
+            },
+            {
+               "playerRef": 532,
+               "introducedOn": 66
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 535
+            }
+         ],
+         "sendingsOff":
+         [
+            {
+               "playerRef": 547,
+               "time": 50
+            }
+         ]
+      },
+      {
+         "id": 617,
+         "date": "2025-03-20",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 33,
+            "scored": 1,
+            "ranking": 82
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 559,
+                  "time": 20
+               },
+               {
+                  "playerRef": 488,
+                  "time": 41
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 559,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 555,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 520,
+               "substitutedOn": 78
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 463
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 79
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 557
+            },
+            {
+               "playerRef": 560,
+               "introducedOn": 78
+            },
+            {
+               "playerRef": 567
+            },
+            {
+               "playerRef": 533
+            },
+            {
+               "playerRef": 558
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 550,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 568,
+               "introducedOn": 79
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 554,
+               "introducedOn": 75
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 568
+            }
+         ]
+      },
+      {
+         "id": 618,
+         "date": "2025-03-23",
+         "level": 12,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 533,
+                  "time": 83
+               },
+               {
+                  "playerRef": 554,
+                  "time": 62
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 33,
+            "scored": 1,
+            "ranking": 82
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 555,
+               "substitutedOn": 64
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 65
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 65
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 81
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 73
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 557
+            },
+            {
+               "playerRef": 520,
+               "introducedOn": 65
+            },
+            {
+               "playerRef": 567
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 64
+            },
+            {
+               "playerRef": 558
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 550,
+               "introducedOn": 65
+            },
+            {
+               "playerRef": 568
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 81
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 546
+            }
+         ]
+      },
+      {
+         "id": 619,
+         "date": "2025-06-06",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 565,
+                  "time": 20
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 137,
+            "scored": 1,
+            "ranking": 19
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488,
+               "substitutedOn": 66
+            },
+            {
+               "playerRef": 520,
+               "substitutedOn": 66
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553,
+               "substitutedOn": 80
+            },
+            {
+               "playerRef": 533
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 84
+            },
+            {
+               "playerRef": 565,
+               "substitutedOn": 80
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 538,
+               "substitutedOn": 57
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547,
+               "introducedOn": 84
+            },
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 587
+            },
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 560,
+               "introducedOn": 66
+            },
+            {
+               "playerRef": 585
+            },
+            {
+               "playerRef": 558,
+               "introducedOn": 80
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 80
+            },
+            {
+               "playerRef": 586
+            },
+            {
+               "playerRef": 554,
+               "introducedOn": 57
+            },
+            {
+               "playerRef": 588,
+               "introducedOn": 66
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 533
+            }
+         ]
+      },
+      {
+         "id": 620,
+         "date": "2025-06-10",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 9,
+            "scored": 0,
+            "ranking": 91
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 60
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 528
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553,
+               "substitutedOn": 55
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 463,
+               "substitutedOn": 20
+            },
+            {
+               "playerRef": 565,
+               "substitutedOn": 75
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 89
+            },
+            {
+               "playerRef": 588,
+               "substitutedOn": 56
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 75
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 541
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 587,
+               "introducedOn": 89
+            },
+            {
+               "playerRef": 520,
+               "introducedOn": 20
+            },
+            {
+               "playerRef": 558
+            },
+            {
+               "playerRef": 585
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 75
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 56
+            },
+            {
+               "playerRef": 564
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 55
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 554
+            },
+            {
+               "playerRef": 532
+            }
+         ]
+      },
+      {
+         "id": 621,
+         "date": "2025-09-06",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 533,
+                  "time": 92
+               },
+               {
+                  "playerRef": 554,
+                  "time": 48
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 6,
+            "scored": 2,
+            "ranking": 38
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 559,
+               "substitutedOn": 77
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 488,
+               "substitutedOn": 65
+            },
+            {
+               "playerRef": 545,
+               "substitutedOn": 77
+            },
+            {
+               "playerRef": 525,
+               "substitutedOn": 65
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 536,
+               "substitutedOn": 89
+            },
+            {
+               "playerRef": 554
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 77
+            },
+            {
+               "playerRef": 589
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 77
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 544,
+               "introducedOn": 65
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 89
+            },
+            {
+               "playerRef": 564
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 65
+            },
+            {
+               "playerRef": 588
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 554
+            }
+         ]
+      },
+      {
+         "id": 622,
+         "date": "2025-09-09",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 74,
+            "scored": 2,
+            "ranking": 105
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "ranking": 60,
+            "goals":
+            [
+               {
+                  "playerRef": 554,
+                  "time": 57
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 559,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520,
+               "substitutedOn": 80
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 536
+            },
+            {
+               "playerRef": 538,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 554
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547,
+               "introducedOn": 80
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 488
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 69
+            },
+            {
+               "playerRef": 589
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 564
+            },
+            {
+               "playerRef": 586
+            },
+            {
+               "playerRef": 588,
+               "introducedOn": 69
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 536
+            }
+         ]
+      },
+      {
+         "id": 623,
+         "date": "2025-10-11",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 13,
+            "scored": 1,
+            "ranking": 5
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 0,
+            "ranking": 61
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 85
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 76
+            },
+            {
+               "playerRef": 552,
+               "substitutedOn": 63
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 77
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 590
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 63
+            },
+            {
+               "playerRef": 533
+            },
+            {
+               "playerRef": 553,
+               "introducedOn": 76
+            },
+            {
+               "playerRef": 497,
+               "introducedOn": 85
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565
+            },
+            {
+               "playerRef": 532,
+               "introducedOn": 77
+            },
+            {
+               "playerRef": 538
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 552
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 525
+            }
+         ]
+      },
+      {
+         "id": 624,
+         "date": "2025-10-14",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "ranking": 61,
+            "goals":
+            [
+               {
+                  "playerRef": 554,
+                  "time": 69
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 74,
+            "scored": 0,
+            "ranking": 103
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 64
+            },
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 553,
+               "substitutedOn": 80
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 552,
+               "substitutedOn": 64
+            },
+            {
+               "playerRef": 554,
+               "substitutedOn": 80
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 590
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 80
+            },
+            {
+               "playerRef": 497
+            },
+            {
+               "playerRef": 544,
+               "introducedOn": 64
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 565
+            },
+            {
+               "playerRef": 540
+            },
+            {
+               "playerRef": 532,
+               "introducedOn": 64
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 80
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 453
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 560
+            }
+         ]
+      },
+      {
+         "id": 625,
+         "date": "2025-11-13",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "ranking": 62,
+            "goals":
+            [
+               {
+                  "playerRef": 532,
+                  "time": 16
+               },
+               {
+                  "playerRef": 532,
+                  "time": 44
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 13,
+            "scored": 0,
+            "ranking": 5
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453
+            },
+            {
+               "playerRef": 547,
+               "substitutedOn": 85
+            },
+            {
+               "playerRef": 559,
+               "substitutedOn": 78
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 85
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 67
+            },
+            {
+               "playerRef": 538,
+               "substitutedOn": 67
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518,
+               "introducedOn": 85
+            },
+            {
+               "playerRef": 555,
+               "introducedOn": 85
+            },
+            {
+               "playerRef": 600
+            },
+            {
+               "playerRef": 589
+            },
+            {
+               "playerRef": 558
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 67
+            },
+            {
+               "playerRef": 497
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 540,
+               "introducedOn": 67
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 78
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 538
+            },
+            {
+               "playerRef": 547
+            }
+         ]
+      },
+      {
+         "id": 626,
+         "date": "2025-11-16",
+         "level": 1,
+         "homeTeam":
+         {
+            "teamRef": 6,
+            "scored": 2,
+            "ranking": 37
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 3,
+            "ranking": 62,
+            "goals":
+            [
+               {
+                  "playerRef": 532,
+                  "time": 14,
+                  "isPenalty": true
+               },
+               {
+                  "playerRef": 532,
+                  "time": 79
+               },
+               {
+                  "playerRef": 532,
+                  "time": 95
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 59
+            },
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 525,
+               "substitutedOn": 79
+            },
+            {
+               "playerRef": 560,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534,
+               "substitutedOn": 59
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 52
+            },
+            {
+               "playerRef": 532
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 539
+            },
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 555
+            },
+            {
+               "playerRef": 589,
+               "introducedOn": 59
+            },
+            {
+               "playerRef": 520,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 52
+            },
+            {
+               "playerRef": 497
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 540
+            },
+            {
+               "playerRef": 552,
+               "introducedOn": 59
+            },
+            {
+               "playerRef": 538,
+               "introducedOn": 79
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 525
+            },
+            {
+               "playerRef": 552
+            },
+            {
+               "playerRef": 532
+            }
+         ]
+      },
+      {
+         "id": 627,
+         "date": "2026-03-26",
+         "level": 9,
+         "homeTeam":
+         {
+            "teamRef": 52,
+            "scored": 2
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 2,
+            "goals":
+            [
+               {
+                  "playerRef": 532,
+                  "time": 18,
+                  "isPenalty": true
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 95
+            },
+            {
+               "playerRef": 559
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 520,
+               "substitutedOn": 67
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534,
+               "substitutedOn": 114
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 95
+            },
+            {
+               "playerRef": 532
+            },
+            {
+               "playerRef": 538,
+               "substitutedOn": 67
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 545,
+               "introducedOn": 114,
+               "substitutedOn": 120
+            },
+            {
+               "playerRef": 518,
+               "introducedOn": 95
+            },
+            {
+               "playerRef": 500,
+               "introducedOn": 67
+            },
+            {
+               "playerRef": 589
+            },
+            {
+               "playerRef": 591,
+               "introducedOn": 120
+            },
+            {
+               "playerRef": 567
+            },
+            {
+               "playerRef": 585
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 95
+            },
+            {
+               "playerRef": 497
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 463,
+               "introducedOn": 67
+            },
+            {
+               "playerRef": 536
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 538
+            },
+            {
+               "playerRef": 520
+            }
+         ]
+      },
+      {
+         "id": 628,
+         "date": "2026-04-02",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 0
+         },
+         "awayTeam":
+         {
+            "teamRef": 55,
+            "scored": 0
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 60
+            },
+            {
+               "playerRef": 547
+            },
+            {
+               "playerRef": 559,
+               "substitutedOn": 60
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534,
+               "substitutedOn": 60
+            },
+            {
+               "playerRef": 497,
+               "substitutedOn": 71
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 83
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 71
+            },
+            {
+               "playerRef": 536
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 518
+            },
+            {
+               "playerRef": 500,
+               "introducedOn": 82
+            },
+            {
+               "playerRef": 560,
+               "introducedOn": 71
+            },
+            {
+               "playerRef": 520
+            },
+            {
+               "playerRef": 589,
+               "introducedOn": 83
+            },
+            {
+               "playerRef": 591,
+               "introducedOn": 60
+            },
+            {
+               "playerRef": 567,
+               "introducedOn": 60,
+               "substitutedOn": 82
+            },
+            {
+               "playerRef": 585
+            },
+            {
+               "playerRef": 533,
+               "introducedOn": 71
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 592
+            },
+            {
+               "playerRef": 564,
+               "introducedOn": 60
+            }
+         ]
+      },
+      {
+         "id": 629,
+         "date": "2026-05-16",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 5,
+            "goals":
+            [
+               {
+                  "playerRef": 563,
+                  "time": 45
+               },
+               {
+                  "playerRef": 563,
+                  "time": 55
+               },
+               {
+                  "playerRef": 598,
+                  "time": 61
+               },
+               {
+                  "playerRef": 598,
+                  "time": 79
+               },
+               {
+                  "playerRef": 598,
+                  "time": 83
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 162,
+            "scored": 0
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 528,
+               "substitutedOn": 73
+            },
+            {
+               "playerRef": 566,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 567
+            },
+            {
+               "playerRef": 535
+            },
+            {
+               "playerRef": 534,
+               "substitutedOn": 73
+            },
+            {
+               "playerRef": 533,
+               "substitutedOn": 62
+            },
+            {
+               "playerRef": 595,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 62
+            },
+            {
+               "playerRef": 540,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 598
+            },
+            {
+               "playerRef": 536
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 590,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 594
+            },
+            {
+               "playerRef": 601,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 563,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 585,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 558,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 597,
+               "introducedOn": 62
+            },
+            {
+               "playerRef": 593
+            },
+            {
+               "playerRef": 592,
+               "introducedOn": 62
+            }
+         ]
+      },
+      {
+         "id": 630,
+         "date": "2026-05-29",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "goals":
+            [
+               {
+                  "playerRef": 546,
+                  "time": 4
+               }
+            ]
+         },
+         "awayTeam":
+         {
+            "teamRef": 136,
+            "scored": 0
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453
+            },
+            {
+               "playerRef": 542
+            },
+            {
+               "playerRef": 547,
+               "substitutedOn": 73
+            },
+            {
+               "playerRef": 517
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 535,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 534
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 74
+            },
+            {
+               "playerRef": 598
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 89
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 599,
+               "introducedOn": 74
+            },
+            {
+               "playerRef": 561
+            },
+            {
+               "playerRef": 608
+            },
+            {
+               "playerRef": 567,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 606
+            },
+            {
+               "playerRef": 602
+            },
+            {
+               "playerRef": 607,
+               "introducedOn": 89
+            },
+            {
+               "playerRef": 603,
+               "introducedOn": 73
+            },
+            {
+               "playerRef": 588
+            },
+            {
+               "playerRef": 609
+            }
+         ],
+         "sendingsOff":
+         [
+            {
+               "playerRef": 598,
+               "time": 44
+            }
+         ]
+      },
+      {
+         "id": 631,
+         "date": "2026-06-06",
+         "level": 0,
+         "homeTeam":
+         {
+            "teamRef": 66,
+            "scored": 1
+         },
+         "awayTeam":
+         {
+            "teamRef": 0,
+            "scored": 1,
+            "goals":
+            [
+               {
+                  "playerRef": 544,
+                  "time": 59
+               }
+            ]
+         },
+         "startingXI":
+         [
+            {
+               "playerRef": 453,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 599,
+               "substitutedOn": 69
+            },
+            {
+               "playerRef": 560
+            },
+            {
+               "playerRef": 567
+            },
+            {
+               "playerRef": 526
+            },
+            {
+               "playerRef": 546
+            },
+            {
+               "playerRef": 544,
+               "substitutedOn": 91
+            },
+            {
+               "playerRef": 540,
+               "substitutedOn": 87
+            },
+            {
+               "playerRef": 604,
+               "substitutedOn": 45
+            },
+            {
+               "playerRef": 532,
+               "substitutedOn": 87
+            },
+            {
+               "playerRef": 603,
+               "substitutedOn": 45
+            }
+         ],
+         "substitutes":
+         [
+            {
+               "playerRef": 547,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 542,
+               "introducedOn": 45
+            },
+            {
+               "playerRef": 611,
+               "introducedOn": 87
+            },
+            {
+               "playerRef": 561,
+               "introducedOn": 87
+            },
+            {
+               "playerRef": 610
+            },
+            {
+               "playerRef": 608
+            },
+            {
+               "playerRef": 606
+            },
+            {
+               "playerRef": 602
+            },
+            {
+               "playerRef": 611
+            },
+            {
+               "playerRef": 607,
+               "introducedOn": 69
+            },
+            {
+               "playerRef": 609,
+               "introducedOn": 91
+            },
+            {
+               "playerRef": 588,
+               "introducedOn": 69
+            }
+         ],
+         "bookings":
+         [
+            {
+               "playerRef": 542
+            }
+         ]
       }
-   ]
+    ]
 }
